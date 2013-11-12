@@ -1,10 +1,11 @@
 {
     "name": "blevins/meta",
     "description": "",
+    "keywords": ["laravel"],
     "authors": [
         {
-            "name": "Bubuti",
-            "email": "developers@bubuti.com"
+            "name": "Graham Blevins",
+            "email": "hgblevins@gmail.com"
         }
     ],
     "require": {
