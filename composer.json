@@ -1,0 +1,20 @@
+{
+    "name": "blevins/meta",
+    "description": "",
+    "authors": [
+        {
+            "name": "Bubuti",
+            "email": "developers@bubuti.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Blevins\\Meta": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
