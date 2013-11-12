@@ -13,7 +13,7 @@ class MetaBuilder {
 
 	public function credits() {
 
-		return HTML::comment('Bubuti, Version '.$this->config['version']);
+		return HTML::comment('Version '.$this->config['version']);
 	}
 
 	public function charset() {
