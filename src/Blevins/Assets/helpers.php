@@ -12,7 +12,7 @@ if (!function_exists('scripts')) {
 	
 	function scripts() {
 
-		return $assets()->scripts();
+		return assets()->scripts();
 	}
 }
 
@@ -20,6 +20,6 @@ if (!function_exists('styles')) {
 	
 	function styles() {
 
-		return $assets()->styles();;
+		return assets()->styles();;
 	}
 }
