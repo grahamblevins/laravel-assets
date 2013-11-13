@@ -1,9 +1,9 @@
-<?php namespace Blevins\Meta;
+<?php namespace Blevins\Assets;
 
 use Config;
 use Illuminate\Support\ServiceProvider;
 
-class MetaServiceProvider extends ServiceProvider {
+class AssetsServiceProvider extends ServiceProvider {
 
 	/**
 	 * Indicates if loading of the provider is deferred.
@@ -20,9 +20,8 @@ class MetaServiceProvider extends ServiceProvider {
 	public function boot()
 	{
 		include 'helpers.php';
-		include 'macros.php';
 
-		$this->package('blevins/meta');
+		$this->package('blevins/assets');
 	}
 
 	/**
@@ -32,9 +31,9 @@ class MetaServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$this->app['blevins.meta'] = $this->app->share(function($app)
+		$this->app['blevins.assets'] = $this->app->share(function($app)
 		{
-			return new MetaBuilder(Config::get('meta'));
+			return new AssetsBuilder(Config::get('assets'));
 		});
 	}
 
@@ -45,7 +44,7 @@ class MetaServiceProvider extends ServiceProvider {
 	 */
 	public function provides()
 	{
-		return array('blevins.meta');
+		return array('blevins.assets');
 	}
 
 }

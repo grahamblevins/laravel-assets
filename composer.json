@@ -1,5 +1,5 @@
 {
-    "name": "blevins/meta",
+    "name": "blevins/assets",
     "description": "",
     "keywords": ["laravel"],
     "authors": [
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Blevins\\Meta": "src/"
+            "Blevins\\Assets": "src/"
         }
     },
     "minimum-stability": "dev"

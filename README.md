@@ -1,1 +1,1 @@
-# Laravel Meta Package
+# Laravel 4 Assets
