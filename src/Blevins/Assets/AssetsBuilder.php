@@ -15,7 +15,7 @@ class AssetsBuilder {
 
 		$scripts = '';
 
-		foreach ($this->config['scripts'] as $key => $src) {
+		foreach ($this->config['scripts'] as $src) {
 
 			$scripts .= HTML::script($src);
 		}
@@ -27,7 +27,7 @@ class AssetsBuilder {
 
 		$styles = '';
 
-		foreach ($this->config['styles'] as $key => $href) {
+		foreach ($this->config['styles'] as $href) {
 
 			$styles .= HTML::style($href);
 		}
