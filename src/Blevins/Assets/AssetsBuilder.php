@@ -23,15 +23,31 @@ class AssetsBuilder {
 		return $scripts;
 	}
 
-	public function styles() {
+	public function styles(array $media = array()) {
 
-		$styles = '';
+		$styles = array();
 
-		foreach ($this->config['styles'] as $href) {
+		if (empty($media)) {
 
-			$styles .= HTML::style($href);
+			$styles = $this->config['styles'];
+		}
+		else {
+
+			foreach ($media as $query) {
+				
+				$styles[$query] = array_get($this->config['styles'], $query);
+			}
 		}
 
-		return $styles;
+		$markup = '';
+
+		foreach (array_dot($styles) as $key => $href) {
+			
+			list($media) = explode('.', $key);
+			
+			$markup .= HTML::style($href, array('media' => $media));
+		}
+
+		return $markup;
 	}
 }

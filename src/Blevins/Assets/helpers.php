@@ -18,8 +18,8 @@ if (!function_exists('scripts')) {
 
 if (!function_exists('styles')) {
 	
-	function styles() {
+	function styles(array $media = array()) {
 
-		return assets()->styles();;
+		return assets()->styles($media);;
 	}
 }
