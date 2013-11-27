@@ -78,7 +78,7 @@ The following example includes all stylesheets and scrtips defined in `assets.ph
 </html>
 ```
 
-But what if you need specific stylesheets or combination of stylesheets for different templates? The next exaample shows how to use the media type or dot notation to include specific stylesheets.
+But what if you need specific stylesheets or combination of stylesheets for different templates? The next example shows how to use the media type or dot notation to include specific stylesheets.
 
 ```html
 <html>
