@@ -1,6 +1,6 @@
 # Laravel 4 Assets
 
-This Laravel 4 package provides simple script and stylesheet management per application environment.
+Laravel 4 assets package provides simple script and stylesheet management per application environment.
 
 ## Configuration
 
