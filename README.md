@@ -35,9 +35,7 @@ return array(
 );
 ```
 
-## Example
-
-Include all stylesheets and scripts for the current environment.
+To include all stylesheets and scripts for the current environment:
 
 ```html
 <html>
@@ -61,9 +59,7 @@ Include all stylesheets and scripts for the current environment.
 </html>
 ```
 
-## Example
-
-Include specific stylesheets using the media key or dot notation for named stylesheets.
+To include specific stylesheets using the media key or dot notation for named stylesheets:
 
 ```html
 <html>
