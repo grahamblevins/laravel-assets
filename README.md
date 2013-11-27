@@ -35,7 +35,7 @@ return array(
 );
 ```
 
-To include all stylesheets and scripts for the current environment:
+The following example includes all scrtips and stylesheets defined in `assets.php`.
 
 ```html
 <html>
@@ -59,7 +59,7 @@ To include all stylesheets and scripts for the current environment:
 </html>
 ```
 
-To include specific stylesheets using the media key or dot notation for named stylesheets:
+But what if you need specific stylesheets or combination of stylesheets for different template? The next exaample shows how to use the media type or dot notation to include specific stylesheets.
 
 ```html
 <html>
