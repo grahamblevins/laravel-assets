@@ -6,6 +6,8 @@ Laravel 4 assets package provides simple script and stylesheet management per ap
 
 Add an `assets.php` to your `app/config` directory. Specify environment configurations by adding an `assets.php` to each environment directory in your `app/config` directory.
 
+At least one `media` type is required as a key in the `styles` array. But there is no limit to the number of stylesheets.
+
 ```php
 <?php
 
