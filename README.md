@@ -4,7 +4,7 @@ This Laravel 4 package utilizes the framework's environment configuration for si
 
 ## Configuration
 
-Add assets.php to your app/config directory. Specify per environment configurations by adding an assets.php to each environment directory in your app/config directory.
+Add `assets.php` to your `app/config` directory. Specify per environment configurations by adding an `assets.php` to each environment directory in your `app/config` directory.
 
 ```php
 <?php
