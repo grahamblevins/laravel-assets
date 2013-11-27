@@ -37,7 +37,7 @@ return array(
 );
 ```
 
-The following example includes all scrtips and stylesheets defined in `assets.php`.
+The following example includes all stylesheets and scrtips defined in `assets.php`.
 
 ```html
 <html>
@@ -78,4 +78,45 @@ But what if you need specific stylesheets or combination of stylesheets for diff
 		<link media="print" type="text/css" rel="stylesheet" href="/path/to/stylesheet/file-4.js">
 	</head>
 </html>
+```
+
+### Example Configuration
+
+`app\local\assets.php`
+
+```php
+<?php
+
+return array(
+
+	'scripts' => array(
+		'/assets/libs/requirejs/require.js',
+		'/assets/core/lib/main.js',
+	),
+
+	'styles' => array(
+		'screen' => array(
+			'/assets/core/css/style.css',
+		)
+	),
+);
+```
+
+`app\assets.php`
+
+```php
+<?php
+
+return array(
+
+	'scripts' => array(
+		'/assets/build/lib/main.js',
+	),
+
+	'styles' => array(
+		'screen' => array(
+			'/assets/build/css/style.css',
+		)
+	),
+);
 ```
