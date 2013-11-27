@@ -39,7 +39,7 @@ return array(
 	'styles' => array(
 		'all' => array(
 			'/path/to/stylesheet/file-1.js',
-			'named' => '/path/to/stylesheet/file-2.js',
+			'foo' => '/path/to/stylesheet/file-2.js',
 			[ ..., ]
 		),
 		'screen' => array(
@@ -83,7 +83,7 @@ But what if you need specific stylesheets or combination of stylesheets for diff
 ```html
 <html>
 	<head>
-		{{ styles(array('all.named', 'print')) }}
+		{{ styles(array('all.foo', 'print')) }}
 	</head>
 </html>
 ```
