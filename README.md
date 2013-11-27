@@ -80,9 +80,9 @@ But what if you need specific stylesheets or combination of stylesheets for diff
 </html>
 ```
 
-### Example Configuration
+### Example
 
-`app\local\assets.php`
+Local: `app\local\assets.php`
 
 ```php
 <?php
@@ -102,7 +102,7 @@ return array(
 );
 ```
 
-`app\assets.php`
+Default: `app\assets.php`
 
 ```php
 <?php
