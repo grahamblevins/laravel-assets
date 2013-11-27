@@ -17,7 +17,7 @@ Add the following repository and `blevins/assets` dependency to your project's `
 		"blevins/assets": "0.1.0"
 	},
 
-Run the `composer update` and add the `'Blevins\Assets\AssetsServiceProvider'` to `app\config\app.php` service providers array.
+Run `composer update` and add `'Blevins\Assets\AssetsServiceProvider'` to the `app\config\app.php` service providers array.
 
 ## Configuration
 
