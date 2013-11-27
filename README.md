@@ -1,8 +1,10 @@
 # Laravel 4 Assets
 
-This Laravel 4 package utilizes the framework's environment configuration for simple script and stylesheet asset management.
+This Laravel 4 package utilizes the framework's environment configuration for simple script and stylesheet management.
 
 ## Configuration
+
+Add assets.php to your app/config directory. Specify per environment configurations by adding an assets.php to each environment directory in your app/config directory.
 
 ```php
 <?php
@@ -33,7 +35,9 @@ return array(
 );
 ```
 
-## Example - Include all stylesheets and scripts
+## Example
+
+Include all stylesheets and scripts for the current environment.
 
 ```html
 <html>
@@ -57,7 +61,9 @@ return array(
 </html>
 ```
 
-## Example - Include specific stylesheets
+## Example
+
+Include specific stylesheets using the media key or dot notation for named stylesheets.
 
 ```html
 <html>
