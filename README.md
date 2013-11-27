@@ -114,7 +114,7 @@ return array(
 	'styles' => array(
 		'screen' => array(
 			'/assets/core/css/style.css',
-		)
+		),
 	),
 );
 ```
@@ -133,7 +133,7 @@ return array(
 	'styles' => array(
 		'screen' => array(
 			'/assets/build/css/style.css',
-		)
+		),
 	),
 );
 ```
