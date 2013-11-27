@@ -4,7 +4,7 @@ This Laravel 4 package provides simple script and stylesheet management per appl
 
 ## Installation
 
-Add the following repository and `blevins/assets` dependency to your project's `composer.json` file.
+Add the package repository and dependency to your project's `composer.json` file.
 
 	"repositories": [
 		{
