@@ -7,7 +7,7 @@ return array(
 	'styles' => array(
 		'all' => array(
 			'/path/to/resource',
-			'named' => ''
+			'named' => '/path/to/resource'
 		),
 		'print' => array(
 			'',
