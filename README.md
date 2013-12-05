@@ -17,7 +17,7 @@ Add the package repository and dependency to your project's `composer.json` file
 		"blevins/assets": "0.1.0"
 	},
 
-Run `composer update` and add `'Blevins\Assets\AssetsServiceProvider'` to the `app\config\app.php` service providers array.
+Run `composer update` and add `'Blevins\Assets\AssetsServiceProvider'` to the `app/config/app.php` service providers array.
 
 ## Configuration
 
@@ -99,7 +99,7 @@ But what if you need specific stylesheets or combination of stylesheets for diff
 
 ### Example
 
-Local: `app\local\assets.php`
+Local: `app/local/assets.php`
 
 ```php
 <?php
