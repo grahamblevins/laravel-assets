@@ -2,7 +2,7 @@
     "name": "blevins/laravel-assets",
     "version": "0.1.3",
     "description": "A super simple script and stylesheet management package for Laravel 4.",
-    "keywords": ["laravel", "assets"],
+    "keywords": ["laravel", "assets", "javascript", "css"],
     "authors": [
         {
             "name": "Graham Blevins",
