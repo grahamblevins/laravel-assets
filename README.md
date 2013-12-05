@@ -14,7 +14,7 @@ Add the package repository and dependency to your project's `composer.json` file
 	],
 	"require": {
 		"laravel/framework": "4.0.*",
-		"blevins/assets": "0.1.0"
+		"blevins/assets": "0.1.1"
 	},
 
 Run `composer update` and add `'Blevins\Assets\AssetsServiceProvider'` to the `app/config/app.php` service providers array.
