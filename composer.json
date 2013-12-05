@@ -1,8 +1,8 @@
 {
-    "name": "blevins/assets",
-    "version": "0.1.1",
-    "description": "",
-    "keywords": ["laravel"],
+    "name": "blevins/laravel-assets",
+    "version": "0.1.2",
+    "description": "A super simple script and stylesheet management package for Laravel 4.",
+    "keywords": ["laravel", "assets"],
     "authors": [
         {
             "name": "Graham Blevins",
@@ -16,7 +16,10 @@
     "autoload": {
         "psr-0": {
             "Blevins\\Assets": "src/"
-        }
+        },
+        "files": [
+            "src/Blevins/Assets/helpers.php"
+        ]
     },
     "minimum-stability": "dev"
 }

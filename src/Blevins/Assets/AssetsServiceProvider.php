@@ -17,11 +17,9 @@ class AssetsServiceProvider extends ServiceProvider {
 	 *
 	 * @return void
 	 */
-	public function boot()
-	{
-		include 'helpers.php';
+	public function boot() {
 
-		$this->package('blevins/assets');
+		$this->package('blevins/laravel-assets');
 	}
 
 	/**
@@ -29,10 +27,10 @@ class AssetsServiceProvider extends ServiceProvider {
 	 *
 	 * @return void
 	 */
-	public function register()
-	{
-		$this->app['blevins.assets'] = $this->app->share(function($app)
-		{
+	public function register() {
+
+		$this->app['blevins.assets'] = $this->app->share(function($app) {
+
 			return new AssetsBuilder(Config::get('assets'));
 		});
 	}
@@ -42,9 +40,8 @@ class AssetsServiceProvider extends ServiceProvider {
 	 *
 	 * @return array
 	 */
-	public function provides()
-	{
-		return array('blevins.assets');
-	}
+	public function provides() {
 
+		return array();
+	}
 }

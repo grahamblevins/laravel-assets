@@ -1,20 +1,14 @@
-# Laravel 4 Assets
+# Laravel 4 Asset Management
 
-This Laravel 4 package provides simple script and stylesheet management per application environment.
+A super simple script and stylesheet management package for Laravel 4.
 
 ## Installation
 
-Add the package repository and dependency to your project's `composer.json` file.
+Add the package dependency to your project's `composer.json` file.
 
-	"repositories": [
-		{
-            "type": "vcs",
-            "url": "git://github.com/grahamblevins/laravel.assets.git"
-        }
-	],
 	"require": {
 		"laravel/framework": "4.0.*",
-		"blevins/assets": "0.1.1"
+		"blevins/laravel-assets": "0.1.2"
 	},
 
 Run `composer update` and add `'Blevins\Assets\AssetsServiceProvider'` to the `app/config/app.php` service providers array.
