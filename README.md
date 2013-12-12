@@ -17,7 +17,7 @@ Run `composer update` and add `'Blevins\Assets\AssetsServiceProvider'` to the `a
 
 Add an `assets.php` to your `app/config` directory. Specify environment configurations by adding an `assets.php` to each environment directory in your `app/config` directory.
 
-At least one `media` type is required as a key in the `styles` array. But there is no limit to the number of stylesheets.
+There is no limit to the number of stylesheets or external scriptd. At least one media type is required as a key in the `styles` array.
 
 ```php
 <?php
@@ -72,7 +72,7 @@ The following example includes all stylesheets and scrtips defined in `assets.ph
 </html>
 ```
 
-But what if you need specific stylesheets or combination of stylesheets for different templates? The next example shows how to use the media type or dot notation to include specific stylesheets.
+But what if you need specific stylesheets or combination of stylesheets for different templates? The next example shows how to use the media type and dot notation to include specific stylesheets.
 
 ```html
 <html>
