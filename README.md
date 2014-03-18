@@ -1,13 +1,13 @@
 # Laravel 4 Asset Management
 
-A super simple script and stylesheet management package for Laravel 4.
+A super simple external JavaScript and Stylesheet management package for Laravel 4.
 
 ## Installation
 
 Add the package dependency to your project's `composer.json` file.
 
 	"require": {
-		"laravel/framework": "4.0.*",
+		"laravel/framework": "4.1.*",
 		"blevins/laravel-assets": "dev-master"
 	},
 
